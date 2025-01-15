@@ -3,17 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/style.css">
         <title>Document</title>
+        <!-- <link rel="stylesheet" href="/test_flask/test-flask-sqlite-json-v2-Moninec/flask/static/style.css"> -->
     </head>
     <body>
         <form method="GET">
-            <h1>Recenze</h1>
+            <h1 class="nadpis">Recenze</h1>
             <label for="recenze">Recenze: </label><input
                 type="text"
+                name="recenze"
                 autocomplete="off"
                 placeholder="Napiš recenzi"
                 autofocus />
-            <p>Recenze uživatele ... </p> 
+            <p>Recenze uživatele: {{ jinja_var }} </p> 
             <!-- Místo tří teček by se mělo doplnit recenzi, kterou odeslal uživatel ve formuláři -->
     </body>
 </html>
