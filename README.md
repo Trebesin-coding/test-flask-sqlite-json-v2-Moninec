@@ -23,4 +23,4 @@ Ke každé části testu je složka, do které doplň svůj kód
 
 1.  zodpověz otázky v tesst_json.txt ✅
 
-# Celkem: 115 bodů
+# Celkem: 105 bodů
